@@ -9,3 +9,27 @@ Backend:
 7. Repeat for each model
 8. Test associations 
 9. Review requirements and videos to make sure backend is finished and working
+
+///////////////////////
+
+Drink 
+
+name:string
+has_many :liqours, :mixers, :garnishes
+
+Liqour
+
+name:string | drink_id:integer 
+belongs_to :drink
+
+Mixer
+
+name:string | drink_id:integer
+belongs_to :drink
+
+Garnish
+
+name:string | drink_id:integer
+belongs_to :drink
+
+/////////////////////////

@@ -6,14 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-drink1 = Drink.create(name: 'Screwdriver')
-drink2 = Drink.create(name: 'Vodka and Cranberry')
 
-liquor1 = Liquor.create(name: 'Vodka', drink_id: drink1.id)
-
-mixer1 = Mixer.create(name: 'Cranberry Juice', drink: drink2)
-mixer2 = Mixer.create(name: 'Orange Juice', drink: drink1)
-
-garnish1 = Garnish.create(name: 'Lemon Slice', drink: drink2)
 
 

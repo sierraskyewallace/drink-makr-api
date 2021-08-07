@@ -14,7 +14,7 @@ Backend:
 
 Drink 
 
-name:string
+name:string | description:string
 has_many :liqours, :mixers, :garnishes
 
 Liqour

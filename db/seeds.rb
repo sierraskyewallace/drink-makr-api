@@ -9,7 +9,7 @@
 drink1 = Drink.create(name: 'Screwdriver')
 drink2 = Drink.create(name: 'Vodka and Cranberry')
 
-liqour1 = Liquor.create(name: 'Vodka', drink: drink1)
+liquor1 = Liquor.create(name: 'Vodka', drink_id: drink1.id)
 
 mixer1 = Mixer.create(name: 'Cranberry Juice', drink: drink2)
 mixer2 = Mixer.create(name: 'Orange Juice', drink: drink1)
